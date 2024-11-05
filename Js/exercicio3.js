@@ -45,3 +45,23 @@ if (numero >= 1 && numero <= 10) {
     alert("Por favor, insira um número entre 1 e 10.");
 }
 
+14. Faça um programa que peça dois números, base e expoente, calcule e mostre o primeiro
+número elevado ao segundo número. Não utilize a função de potência da linguagem.15. Faça um programa que peça 10 números inteiros, calcule e mostre a quantidade de números
+pares e a quantidade de números ímpares.
+
+    // Solicita a base e o expoente ao usuário
+let base = parseInt(prompt("Digite a base (número):"));
+let expoente = parseInt(prompt("Digite o expoente (número):"));
+
+// Inicializa o resultado como 1 (qualquer número elevado a 0 é 1)
+let resultado = 1;
+
+// Realiza o cálculo da potência utilizando multiplicação repetida
+for (let i = 1; i <= expoente; i++) {
+    resultado *= base;
+}
+
+// Exibe o resultado
+alert(`${base} elevado a ${expoente} é igual a ${resultado}`);
+
+
