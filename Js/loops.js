@@ -1,3 +1,7 @@
+Exercícios de Laços e Loops em JavaScript
+1. Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor
+seja inválido e continue pedindo até que o usuário informe um valor válido.
+
 // Solicita os dois números inteiros ao usuário
 let numero1 = parseInt(prompt("Digite o primeiro número inteiro:"));
 let numero2 = parseInt(prompt("Digite o segundo número inteiro:"));
