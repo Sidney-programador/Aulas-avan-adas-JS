@@ -65,3 +65,13 @@ for (let i = 1; i <= expoente; i++) {
 alert(`${base} elevado a ${expoente} é igual a ${resultado}`);
 
 
+//15. Faça um programa que peça 10 números inteiros, 
+//calcule e mostre a quantidade de números pares e a quantidade de números ímpares.
+var numero;
+for (var i = 0; i<10;i++){
+numero = parseInt(prompt("peça um numero"));
+
+if(numero % 2 === 0 ){
+  document.write("é numero par",)
+}
+}
